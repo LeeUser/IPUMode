@@ -1,2 +1,8 @@
-D:\Work\Java\IPUMode\src\main\java\ipumode\Main.java
-D:\Work\Java\IPUMode\src\main\java\ipumode\MainStage.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\Secene\Controller\RootController.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\Secene\Controller\CenterSeceneController.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\Secene\MainStage.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\Secene\Controller\MainSeceneController.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\Secene\Controller\Context.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\Secene\Controller\LeftSeceneController.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\StartMain.java
+D:\Work\Java\IPUMode\src\main\java\ipumode\Secene\Controller\RightSeceneController.java

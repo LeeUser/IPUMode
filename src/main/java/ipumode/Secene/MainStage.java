@@ -1,4 +1,4 @@
-package ipumode.Stage;
+package ipumode.Secene;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,7 +11,7 @@ public class MainStage extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../Layout/MainSecene.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Layout/MainSecene.fxml"));
         primaryStage.setTitle("IPUMode");
         primaryStage.getIcons().add(new Image("Logo.jpg"));
         primaryStage.setMaximized(true);

@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ipumode.Controller.LeftSeceneController">
+<VBox prefHeight="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ipumode.Secene.Controller.LeftSeceneController">
    <children>
       <Label prefHeight="23.0" prefWidth="170.0" style="-fx-background-color: black;" textFill="WHITE">
       </Label>

@@ -1,4 +1,4 @@
-package ipumode.Controller;
+package ipumode.Secene.Controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

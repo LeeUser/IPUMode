@@ -1,4 +1,4 @@
-package ipumode.Controller;
+package ipumode.Secene.Controller;
 
 import java.util.HashMap;
 import java.util.Map;

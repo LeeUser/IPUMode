@@ -1,4 +1,4 @@
-package ipumode.Controller;
+package ipumode.Secene.Controller;
 
 public class RootController {
     public RootController() {

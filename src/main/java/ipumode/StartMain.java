@@ -10,7 +10,8 @@ public class StartMain {
     private final static Logger logger = LogManager.getLogger(StartMain.class);
 
     public static void main(String[] args) {
-        logger.info("开始启动程序");
+        logger.info("开始IPU启动程序");
         Application.launch(MainStage.class, args);
+        logger.info("IPU程序启动成功");
     }
 }

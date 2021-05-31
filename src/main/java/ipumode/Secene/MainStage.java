@@ -6,8 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class MainStage extends Application {
+
+    private final static Logger logger = LogManager.getLogger(MainStage.class);
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -17,5 +21,6 @@ public class MainStage extends Application {
         primaryStage.setMaximized(true);
         primaryStage.setScene(new Scene(root, 600, 500));  //如果不支持全屏
         primaryStage.show();
+        logger.info("Stage start 完成");
     }
 }

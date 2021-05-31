@@ -5,80 +5,86 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="850.0" prefWidth="0.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ipumode.Secene.Controller.MainSeceneController">
-   <children>
-      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0">
+
+<ScrollPane fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ipumode.Secene.Controller.MainSeceneController">
+   <content>
+      <VBox id="mainVBox" prefWidth="0.0">
          <children>
-      <!--   左侧    -->
-            <AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="780.0" prefWidth="180.0">
-                <children>
-                    <fx:include source="LeftSecene.fxml" />
-                </children>
-            </AnchorPane>
-      <!--   中间    -->
-            <AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="780.0">
-                <children>
-                    <fx:include source="CenterSecene.fxml" />
-                </children>
-            </AnchorPane>
-      <!--   右边    -->
-            <AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="780.0">
-                <children>
-                    <fx:include source="RightSecene.fxml" />
-                </children>
-            </AnchorPane>
-         </children>
-      </HBox>
-      <VBox prefHeight="200.0" prefWidth="100.0">
-         <children>
-            <HBox>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0">
                <children>
-                  <Label text="系统时间" />
-                  <Label fx:id="systemTimeStamp" text="0000-00-00 00:00:00">
-                     <HBox.margin>
-                        <Insets left="50.0" />
-                     </HBox.margin>
-                  </Label>
+            <!--   左侧    -->
+                  <AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="780.0" prefWidth="180.0">
+                      <children>
+                          <fx:include source="LeftSecene.fxml" />
+                      </children>
+                  </AnchorPane>
+            <!--   中间    -->
+                  <AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="780.0">
+                      <children>
+                          <fx:include source="CenterSecene.fxml" />
+                      </children>
+                  </AnchorPane>
+            <!--   右边    -->
+                  <AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="780.0">
+                      <children>
+                          <fx:include source="RightSecene.fxml" />
+                      </children>
+                  </AnchorPane>
                </children>
-               <padding>
-                  <Insets left="5.0" right="5.0" />
-               </padding>
-               <VBox.margin>
-                  <Insets left="5.0" right="5.0" />
-               </VBox.margin>
             </HBox>
-            <MenuBar>
-              <menus>
-                <Menu mnemonicParsing="false" text="系统">
-                  <items>
-                    <MenuItem mnemonicParsing="false" text="Close" />
-                  </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="显示">
-                  <items>
-                    <MenuItem mnemonicParsing="false" text="Delete" />
-                  </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="操作">
-                  <items>
-                    <MenuItem mnemonicParsing="false" text="About" />
-                  </items>
-                </Menu>
-                  <Menu mnemonicParsing="false" text="帮助">
-                     <items>
-                        <MenuItem mnemonicParsing="false" text="Close" />
-                     </items>
-                  </Menu>
-              </menus>
-               <VBox.margin>
-                  <Insets left="5.0" right="5.0" top="10.0" />
-               </VBox.margin>
-            </MenuBar>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <Label text="系统时间" />
+                        <Label fx:id="systemTimeStamp" text="0000-00-00 00:00:00">
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <MenuBar>
+                    <menus>
+                      <Menu mnemonicParsing="false" text="系统">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Close" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="显示">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Delete" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="操作">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="About" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="帮助">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Close" />
+                           </items>
+                        </Menu>
+                    </menus>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                  </MenuBar>
+               </children>
+            </VBox>
          </children>
       </VBox>
-   </children>
-</VBox>
+   </content>
+</ScrollPane>

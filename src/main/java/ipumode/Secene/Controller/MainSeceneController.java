@@ -3,6 +3,7 @@ package ipumode.Secene.Controller;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.layout.VBox;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,9 +18,10 @@ public class MainSeceneController extends RootController{
     //全局定时器
     Timer timer = new Timer();
 
+    /* 定义控件id对象 */
     //系统时间显示
     @FXML
-    public Label systemTimeStamp;
+    private Label systemTimeStamp;
 
     //定义界面对象
     LeftSeceneController leftSeceneController;
